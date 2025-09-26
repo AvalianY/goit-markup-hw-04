@@ -151,6 +151,7 @@ main .container {
 /*---------------------main section 1---------------*/
 .main-first-secion {
     background-color: var(--navy-blue);
+    background-image:  linear-gradient(rgba(46, 47, 66, 0.7)), url(/images/people-office.jpg);
     padding: 188px 0;
 }
 
@@ -213,6 +214,23 @@ main .container {
     width: calc((100% - 72px) / 4);
 }
 
+.advantage-icon {
+    border: 1px solid var(--light-slate);
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background: var(--cloud);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.advantage-icon-svg {
+    width: 64px;
+    height: 64px;
+    fill: none;
+}
 /*---------------------main team---------------------*/
 .main-team-section {
     background-color: var(--cloud);
@@ -230,6 +248,10 @@ main .container {
     background-color: var(--white);
     border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) / 4);
+}
+
+.div-team-section {
+    padding: 32px 0
 }
 
 .main-team-title {
@@ -252,8 +274,18 @@ main .container {
     text-align: center;
 }
 
-.div-team-section {
-    padding: 32px 0
+.team-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 8px;
+}
+
+.team-icon-svg {
+    width: 40px;
+    height: 40px;
+    fill: none;
 }
 
 /*---------------------main portfolio----------------*/
@@ -300,6 +332,11 @@ main .container {
     padding: 100px 0;
 }
 
+.footer .container {
+    display: flex;
+    column-gap: 120px;
+}
+
 .footer-logo-a {
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -322,3 +359,27 @@ main .container {
     color: var(--cloud);
     max-width: 264px;
 }
+
+.footer-media-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--white);
+}
+
+.footer-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 16px;
+    max-width: 208px;
+}
+
+.footer-icon-svg {
+    width: 40px;
+    height: 40px;
+    fill: none;
+}
+
