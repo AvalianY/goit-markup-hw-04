@@ -328,8 +328,7 @@ main .container {
 }
 
 .team-icon-svg {
-    width: 16px;
-    height: 16px;
+    fill: var(--cloud)
 }
 /*---------------------main portfolio----------------*/
 .main-portfolio-section {
