@@ -118,6 +118,10 @@ header .container {
     color: var(--ocean);
 }
 
+.active {
+    color: var(--ocean);
+}
+
 .active::after {
     content: "";
     width: 100%;
