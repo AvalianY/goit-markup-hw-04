@@ -1,0 +1,27 @@
+.main-advantage-section {
+    padding: 120px 0;
+}
+
+.ul-advantage-section {
+    display: flex;
+    gap: 24px;
+}
+
+.li-advantage-section {
+    width: calc((100% - 72px) / 4);
+}
+
+.advantage-icon {
+    border: 1px solid var(--light-slate);
+    border-radius: 4px;
+    height: 112px;
+    background-color: var(--cloud);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.main-p-advantage {
+    line-height: 1.5;
+}
